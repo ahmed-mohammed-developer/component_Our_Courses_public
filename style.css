@@ -1,0 +1,47 @@
+@import url("components/container.css");
+@import url("components/header.css");
+@import url("components/navbar.css");
+@import url("components/home.css");
+@import url("components/main-title.css");
+@import url("components/benefits.css");
+@import url("components/Our-Courses.css");
+@import url("components/testimonials.css");
+@import url("components/pricing.css");
+@import url("components/footer.css");
+
+
+
+
+
+
+
+
+
+:root {
+  --main: #FF9500;
+  --blue-alt: #0d69d5;
+  --orange: #f59e0b;
+  --green: #22c55e;
+  --red: #f44336;
+  --grey: #888;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  margin: 10px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}

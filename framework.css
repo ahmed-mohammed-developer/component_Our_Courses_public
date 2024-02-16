@@ -1,0 +1,203 @@
+:root {
+     --main: #FF9500;
+     --sec: #FFF4E5;
+     --three: #f1f1f3;
+}
+.max-widh-100 {
+     max-width: 100%;
+}
+   /* coler */
+   .bg-white {
+     background-color: white;
+   }
+   .bg-main {
+      background-color: var(--main);
+   }
+   .bg-2 {
+     background-color: #F1F1F3;
+   }
+   .bg-sec {
+     background-color: var(--sec);
+   }
+   .c-white {
+     color: white;
+   }
+   .c-black {
+     color: black;
+   }
+
+   /* pading */
+   .p-40 {
+     padding: 40px;
+   }
+   .p-30 {
+     padding: 30px;
+   }
+   .p-24 {
+     padding: 24px;
+   }
+   .p-12 {
+     padding: 12px;
+   }
+   .p-10 {
+     padding: 10px;
+   }
+.b-block-12 {
+     padding-block: 12px;
+}
+.p-block-14 {
+     padding-block: 14px;
+}
+.pb-10 {
+     padding-block: 10px;
+}
+.p-inline-24 {
+     padding-inline: 24px;
+}
+.pi-0 {
+     padding-inline: 0;
+}
+.pt-50 {
+     padding-top: 50px;
+}
+.pt-20 {
+     padding-top: 20px;
+}
+.pt-10 {
+     padding-top: 10px;
+}
+.pb-50 {
+     padding-bottom: 50px;
+}
+.pb-30 {
+     padding-bottom: 30px;
+}
+.pr-10 {
+     padding-right: 10px;
+}
+.p-inline-24 {
+     padding-inline: 24px;
+}
+/* margin */
+.m-block-50 {
+     margin-block: 50px;
+}
+.mt-10 {
+     margin-top: 10px;
+}
+.mt-30 {
+     margin-top: 30px;
+}
+.mt-100 {
+     margin-top: 100px;
+}
+.m-0 {
+     margin: 0;
+}
+.mr-10 {
+     margin-right: 10px;
+}
+.m-block-10 {
+     margin-block: 10px;
+}
+.mb-30 {
+     margin-bottom: 30px;
+}
+/* display */
+.d-flex {
+     display: flex;
+}
+.space-between {
+     justify-content: space-between;
+     align-items: center;
+}
+.center-flex {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 23px;
+}
+.align-items {
+     align-items: center;
+}
+.d-grid {
+     display: grid;
+}
+.template-columns {
+     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+.template-columns-400 {
+     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+.template-columns-500 {
+     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
+.gap-50 {
+     gap: 50px;
+}
+.gap-26 {
+     gap: 26px;
+}
+.gap-15 {
+     gap: 15px;
+}
+.gap-10 {
+     gap: 10px;
+}
+
+/* font */
+.fs-14 {
+     font-size: 14px;
+}
+.fw-400 {
+     font-weight: 400;
+}
+.fl-21 {
+     line-height: 21px;
+}
+.f-18 {
+     font-size: 18px;
+     font-weight: 600;
+}
+
+/* border */ 
+.rad-6 {
+     border-radius: 6px;
+}
+.rad-10 {
+     border-radius: 10px;
+}
+.bor-1 {
+     border: 1px solid #F1F1F3;
+}
+.bpr-bo-1 {
+     border-bottom: 1px solid white;
+}
+.btr-bo-1 {
+     border-top: 1px solid white;
+}
+
+/* txt */
+.txt-c {
+     text-align: center;
+}
+
+/* position */
+.p-relative {
+     position: relative;
+}
+.p-absolute {
+     position: absolute;
+}
+
+/* box */
+.btn-btton {
+     padding-inline: 20px;
+     padding-block: 14px;
+}
+.pointer {
+     cursor: pointer;
+}
+.fs-14 {
+     font-size: 14px;
+}
